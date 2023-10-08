@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fav Social media</title>
+    <link rel="icon" href="heart.png" />
+    <style>
+      body {
+        background-color: rgb(102, 127, 119);
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-top: 100px;
+        font-style: inherit;
+      }
+      .main-div {
+        background-color: rgb(217, 224, 224);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+      }
+      .float-container {
+        display: flex;
+        background-color: rgb(217, 224, 224);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        max-width: 90%;
+      }
+      .float-child {
+        width: 50%;
+        float: left;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+      }
+      img {
+        width: 25px;
+      }
+      .choose {
+        padding-top: 5%;
+        padding-left: 50%;
+      }
+      .details {
+        padding-top: 0%;
+        padding-left: 20%;
+      }
+      .button {
+        position: absolute;
+        left: 43%;
+      }
+      .login {
+        text-align: center;
+      }
+      .logo {
+        width: 18%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .main-login {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+      }
+
+      iframe {
+        width: 40%;
+        height: 20%;
+      }
+      .main-check {
+        width: 90%;
+        margin-left: 270px;
+        margin-top: 70px;
+      }
+      .use {
+        width: 90%;
+        margin-left: 270px;
+        margin-top: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <h1>YOUR FAV SOCIAL MEDIA</h1>
+      <div class="float-container">
+        <div class="float-child">
+          <div class="details">
+            <h2>Enter your details</h2>
+            <label for="name"><strong>Full Name:</strong></label>
+            <input type="text" /><br /><br />
+            <label for="gender"><strong>what defines you:</strong></label
+            ><br />
+            <input type="radio" name="gender" />
+            <label for="radio1">he/him</label><br />
+            <input type="radio" name="gender" />
+            <label for="radio2">she/her</label><br />
+            <input type="radio" name="gender" />
+            <label for="radio3">other</label><br /><br />
+            <label for="age"><strong>Age:</strong></label>
+            <input type="text" /><br />
+          </div>
+        </div>
+        <div class="float-child">
+          <div class="choose">
+            <label><strong>Choose your fav:</strong></label
+            ><br /><br />
+            <input type="checkbox" name="socialmedia" />
+            <img src="instagram.png" alt="insta logo" />
+            <br /><br />
+            <input type="checkbox" name="socialmedia" />
+            <img src="whatsapp.png" alt="whatsapp logo" />
+            <br /><br />
+            <input type="checkbox" name="socialmedia" />
+            <img src="youtube.png" alt="youtube logo" />
+            <br /><br />
+            <input type="checkbox" name="socialmedia" />
+            <img src="twitter.png" alt="twitter logo" />
+            <br />
+          </div>
+        </div>
+      </div>
+
+      <div class="main-login">
+        <h2 class="login">Tap to login to your Favourite!!!</h2>
+        <div class="logo">
+          <a target="_blank" href="https://web.whatsapp.com/"
+            ><img src="whatsapp.png" alt="whatsapp logo"
+          /></a>
+          <a target="_blank" href="https://www.instagram.com/"
+            ><img src="instagram.png" alt="instagram logo"
+          /></a>
+          <a target="_blank" href="https://www.youtube.com/"
+            ><img src="youtube.png" alt="youtube logo"
+          /></a>
+          <a target="_blank" href="https://www.twitter.com/"
+            ><img src="twitter.png" alt="twitter logo"
+          /></a>
+        </div>
+      </div>
+      <div class="use">
+        <h2>How long you use social media?</h2>
+        <input type="radio" name="time" />
+        <label>1-2 hrs</label><br />
+        <input type="radio" name="time" />
+        <label>2-3 hrs</label><br />
+        <input type="radio" name="time" />
+        <label>3-4 hrs</label><br />
+        <input type="radio" name="time" />
+        <label>more than 4 hrs</label><br />
+      </div>
+      <div class="button">
+        <button>Submit</button>
+      </div>
+      <div class="main-check">
+        <h2 class="check">Check this out!!!</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/NHXCyaIiY0o?si=b5ma44dQI9tFnfQF"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
