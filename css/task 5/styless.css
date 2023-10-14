@@ -1,0 +1,13 @@
+div {
+    border: 20px solid black;
+    width: 500px;
+    height: 200px;
+    padding: 50px;
+    background-color: rgba(62, 114, 139, 0.866);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.heading {
+    text-align: center;
+}

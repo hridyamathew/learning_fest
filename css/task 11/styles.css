@@ -1,0 +1,21 @@
+.div1 {
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 800px;
+    height: 70px;
+   border: solid red 3px;
+   padding: 10px;
+   border-radius: 30px;
+}
+.div2{
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 800px;
+    height: 70px;
+    border: solid red 3px;
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}

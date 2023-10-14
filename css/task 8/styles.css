@@ -1,0 +1,19 @@
+div {
+    margin: auto;
+    height: 50px;
+    width: 500px;
+   background: linear-gradient(
+    90deg,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+       violet
+    );
+}
+h1 {
+    text-align: center;
+    color: rgb(134, 120, 102);
+}

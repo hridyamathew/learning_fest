@@ -1,0 +1,16 @@
+.parent {
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+}
+.child {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(24, 63, 24);
+    
+}

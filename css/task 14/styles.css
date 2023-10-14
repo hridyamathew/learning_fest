@@ -1,0 +1,67 @@
+.main {
+    width: 450px;
+    margin-left: 50px;;
+}
+h1 {
+    text-align: center;
+}
+.parent1 {
+    width: 450px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.child1 {
+    border: solid 1px black;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
+.parent2 {
+    width: 450px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.child3 {
+    border: solid 1px black;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
+.parent3 {
+    width: 450px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.child5 {
+    border: solid 1px black;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
+.parent4 {
+    width: 450px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.child7 {
+    border: solid 1px black;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
