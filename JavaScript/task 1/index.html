@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Roller</title>
+    <style>
+      .dice-container {
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: 100px;
+      }
+      button {
+        position: relative;
+        left: 14px;
+        top: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dice-container">
+      <img src="dice-1.jpg" alt="" />
+      <button onclick="rolldice()">Roll Dice</button>
+    </div>
+    <script>
+      function rolldice() {
+        var randumNumber = Math.floor(Math.random() * 6 + 1);
+        var diceimg = "dice-" + randumNumber + ".jpg";
+        var img1 = document.querySelectorAll("img")[0];
+        img1.setAttribute("src", diceimg);
+      }
+    </script>
+  </body>
+</html>

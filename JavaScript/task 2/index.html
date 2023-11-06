@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate</title>
+    <style>
+      .screen {
+        max-width: 300px;
+        max-height: 700px;
+        margin-left: 50px;
+        margin-top: 50px;
+        border: solid;
+        padding-left: 9-0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="screen">
+      <h3>SUM OF TWO NUMBERS</h3>
+      <label for="inp1">Num 1</label>
+      <input type="text" id="inp1" /><br /><br />
+      <label for="inp2">Num 2</label>
+      <input type="text" id="inp2" />
+      <br /><br />
+      <button onclick="display()">ADD</button>
+      <br /><br />
+      <label id="sum"></label>
+    </div>
+
+    <script>
+      function display() {
+        var num1 = document.getElementById("inp1").value;
+        var num2 = document.getElementById("inp2").value;
+        var sum = parseInt(num1) + parseInt(num2);
+        document.getElementById("sum").innerHTML = "Sum = " + sum;
+      }
+    </script>
+  </body>
+</html>
