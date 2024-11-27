@@ -1,0 +1,281 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
+
+.hero-section p {
+  font-family: cursive;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-section {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  
+  /* Navbar */
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.5); /* Set a semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    position: fixed; /* Keep it fixed at the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+  }
+  
+  /* Sections */
+  section {
+    padding: 50px 0;
+  }
+  
+  #services {
+    background-color: #f8f9fa;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.5); /* Keep semi-transparent on small screens */
+      }
+    .hero-section {
+      height: 70vh;
+    }
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  }
+
+  /* About Section */
+.about-section {
+  background-color: #f5f5f5; /* Light background for contrast */
+  padding: 60px 0;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-section img {
+  border: 5px solid #fff; /* Adds a white border to the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+
+/* Services Section */
+.services-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.services-section .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-icon {
+    width: 40px;
+  }
+  .card-img-top {
+    height: 150px;
+  }
+}
+
+.services-section i {
+  color: #8e7c67; /* Set your preferred icon color */
+  margin-right: 10px; /* Space between icon and text */
+  font-size: 2rem;
+}
+
+.service-item {
+  padding: 20px;
+}
+
+.service-item h5 {
+  margin-bottom: 10px; /* Adjust heading margin */
+  font-size: 1rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.service-item p {
+  margin-bottom: 0; /* Ensure no extra space after paragraph */
+  font-size: 0.8rem;
+  text-align: left;
+}
+#contact {
+  padding: 60px 0;
+  background-color: #f5f5f5;
+}
+
+.contact-details {
+  padding: 20px;
+}
+
+.contact-details h6 {
+  font-size: 1rem;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.contact-details h3{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+}
+
+.contact-info i {
+  color: #3c3939; /* Customize the icon color */
+  margin-right: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+}
+
+.contact-info a {
+  color: #8e7c67;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+/* Google Map */
+iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #contact .contact-details, #contact iframe {
+      margin-bottom: 30px;
+      text-align: center;
+  }
+}
+
+.contact-info a i {
+  font-size: 35px; /* Adjust the size as needed */
+  margin-right: 20px; /* Add spacing between the icons */
+  color: #333; /* Optional: Adjust color */
+}
+
+.contact-info a:hover i {
+  color: #8e7c67; /* Change color on hover, optional */
+}
+.contact-info p {
+  font-size: medium;
+}
+
+.footer-section {
+  background-color: #f8f9fa; /* Light background for contrast */
+  padding: 20px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  font-size: small;
+}
+
+.social-icons a {
+  font-size: 24px; /* Icon size */
+  color: #333;
+  margin-right: 15px; /* Space between icons */
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #8e7c67; /* Change color on hover */
+}
+
+
+.see-photos h6 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: small;
+}
+
+.see-photos i {
+  color: #8e7c67; /* Change color as needed */
+  cursor: pointer;
+}
+
+.see-photos i:hover {
+  color: #583f23; /* Hover effect */
+}
+
+.modal-header h5 {
+  font-size: 1.25rem;
+}
+
+.modal-body img {
+  max-height: 500px; /* Set a maximum height for the images */
+  object-fit: cover;
+}
+
+
+
+
+
+
+  
