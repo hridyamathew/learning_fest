@@ -1,0 +1,280 @@
+/* General Reset */
+body {
+  line-height: 1.6;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+}
+
+header {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Hero Section */
+.hero {
+  height: calc(100vh - 70px); /* Adjust for fixed navbar */
+}
+
+.hero h2 {
+  color: #822e50; /* Red text */
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #555; /* Softer text color */
+}
+
+/* Social Icons */
+.icon {
+  color: #000; /* Black icons */
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  color: #822e50; /* Red hover effect */
+}
+
+/* Profile Image */
+img.rounded-circle {
+  border: 3px solid #822e50; /* Red border */
+}
+
+/* Utility Classes */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #000 !important;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #822e50 !important;
+}
+
+/* Adjust Button Appearance */
+/* Custom Button Styling */
+.custom-btn {
+  font-size: 0.8rem; /* Reduce text size */
+  padding: 4px 5px; /* Reduce padding */
+  border-radius: 4px; /* Slightly rounded corners */
+  width: 170px;
+  height: 30px;
+  background-color: #822e50;
+  color: white;
+}
+
+.custom-btn:hover {
+  background-color: #ffffff; /* Darker red on hover */
+  border-color: #651d3c;
+}
+
+#education {
+  padding: 50px 0;
+  color: rgb(0, 0, 0);
+}
+.education_h2 {
+  color:#822e50;
+}
+
+.timeline {
+  padding-left: 20px;
+  position: relative;
+  max-width: 800px;  /* Set a max-width to limit the timeline width */
+  margin: 0 auto;  /* Centering the timeline */
+}
+
+.timeline-item1 {
+  border-left: 5px solid #822e50; /* Add border with your preferred color */
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  max-width: 700px;  /* Reduce the width of timeline items */
+  width: 100%;  /* Ensure responsiveness */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.timeline-item1:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow to give a popping effect */
+  transform: translateY(-5px) scale(1.02); /* Move element slightly up and enlarge it */
+}
+
+.timeline-item2 {
+  border-right: 5px solid #822e50; /* Add border with your preferred color */
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  max-width: 700px;  /* Reduce the width of timeline items */
+  width: 100%;  /* Ensure responsiveness */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  transition: all 0.3s ease-in-out;
+}
+
+.timeline-item2:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow to give a popping effect */
+  transform: translateY(-5px) scale(1.02); /* Move element slightly up and enlarge it */
+}
+
+.timeline-item3 {
+  border-left: 5px solid #822e50; /* Add border with your preferred color */
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  max-width: 700px;  /* Reduce the width of timeline items */
+  width: 100%;  /* Ensure responsiveness */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  transition: all 0.3s ease-in-out;
+}
+
+.timeline-item3:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow to give a popping effect */
+  transform: translateY(-5px) scale(1.02); /* Move element slightly up and enlarge it */
+}
+
+
+.date {
+  font-weight: bold;
+  color: #822e50;
+}
+
+
+#skills-certifications {
+  padding: 100px;
+  margin: 100px;
+}
+
+#skills-certifications .col-md-6:first-child {
+  text-align: left;
+}
+
+#skills-certifications .col-md-6:last-child {
+  text-align: right;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #822e50;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.certifications-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  text-align: right;
+}
+
+.skills-list li {
+  margin-bottom: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Progress bar styles */
+.progress-bar {
+  height: 6px;
+  background: #e0e0e0;
+  border-radius: 3px;
+  margin-top: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.progress {
+  height: 6px;
+  background: #822e50;
+  border-radius: 3px;
+}
+
+/* Individual skill progress widths */
+.html { width: 90%; }
+.css { width: 50%; }
+.php { width: 90%; }
+.javascript { width: 80%; }
+
+.percentage {
+  float: right;
+  font-size: 16px;
+  color: #333;
+}
+
+.certifications-list li {
+  margin-bottom: 10px;
+  color: #000;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.certifications-list li:hover {
+  color: #833d59; /* Change to desired hover color */
+  transform: scale(1.05); /* Slight zoom effect */
+  cursor: pointer;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #skills-certifications {
+    padding: 50px 15px;
+    margin: 50px 15px;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .skills-list,
+  .certifications-list {
+    font-size: 16px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-md-6 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+
+  .progress-bar {
+    height: 5px;
+  }
+
+  .progress {
+    height: 5px;
+  }
+}
+
+.progress {
+  transition: width 1.5s ease-in-out;
+}
+
+
+
+
+
